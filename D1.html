@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+<!--STILE DELLE COLONNE-->
+
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 840px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+
+<!--STILE DELLA TABELLA-->
+
+<style>
+    #customers {
+      border-collapse: collapse;
+      width: 60%;
+    }
+    
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #customers tr:nth-child(even){background-color: #f0f0f0;}
+    
+    #customers tr:hover {background-color: #ffffff;}
+    
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: rgb(249, 162, 214);
+      color: black;
+    }
+    </style>
+
+</head>
+
+<!--COLONNA SINISTRA-->
+
+<body>
+<h2 align="center">Elisabetta Fasanaro</h2>
+
+<div class="row">
+<div class="column left" style="background-color:#ffcfe7;">
+        <p align="center"><a href=""><img src="C:\Users\miyuf\Desktop\EPICODE\foto2.png" alt="Elisabetta Fasanaro"></a></p>
+    <h3>Su di me:</h3>
+        <p>Mi chiamo Elisabetta, ho 30 anni e vengo da Napoli. Sono laureata in lingua inglese e tedesca presso l'Università degli Studi dei Napoli Federico II.<br>
+        Da qualche mese vivo a Berlino, in Germania, e frequento un corso online di web development. Mi piace lavorare in team, e grazie al mio carattere socievole riesco ad collaborare con ogni tipo di persona, ma non ho problemi a lavorare in solitaria.
+        Mantengo i nervi saldi e non perdo di vista l'obiettivo.</p>
+    <h3>Hobby e interessi:</h3>
+        <p1>
+        Nel tempo libero mi piace videogiocare, viaggiare, leggere ed esercitarmi nella scrittura calligrafica, fare hiking e trascorrere il tempo con amici.
+        </p1>
+    <h3>Contatti:</h3>
+        <lista>
+            
+                <li>Email: elisabetta.fasanaro@gmail.com</li>    
+                <li><a href="https://www.linkedin.com/in/elisabetta-fasanaro-995278172/">LinkedIn</a></li>
+                <li>Telefono: +39 xxxxxxxxxx</li>
+
+    <br><br><a href="#footer">Scorri in fondo</a>       
+    
+</div>
+
+<!--COLONNA DESTRA + TABELLA-->
+
+  <div class="column right" style="background-color:#ffffff;">
+    <table align="left" id="customers">
+        <tr>
+          <th>Esperienze accademiche e lavorative</th>
+          <th>Luogo</th>
+          <th>Data</th>
+        </tr>
+        <tr>
+          <td>Laurea in lingue, culture e letterature moderne europee</td>
+          <td>Università degli Studi di Napoli Federico II</td>
+          <td>2012-2018</td>
+        </tr>
+        <tr>
+            <td>Internship come redattrice e traduttrice</td>
+          <td>Cookie s.r.l. Napoli</td>
+          <td>Dicembre 2018-Giugno 2019</td>
+        </tr>
+        <tr>
+          <td>Diploma di tedesco livello B2</td>
+          <td>Goethe Institut Neapel</td>
+          <td>2019</td>
+        </tr>
+        <tr>
+          <td>Master online in traduzione specialistica nei settori turistico, giuridico e medico</td>
+          <td>Scuola per Interpreti e Traduttori di Pescara</td>
+          <td>Luglio 2020-Marzo 2021</td>
+        </tr>
+     </table>
+
+   
+    <!--LISTA DELLE COSE CHE SO FARE (POCHE)-->
+
+    <div class="column right">
+    <h3>Le mie competenze</h3>
+      <ul>
+        <li>Esperienza con il software di elaborazione di immagini digitali Adobe Photoshop</li>
+        <li>Esperienza con la piattaforma online WordPress</li>
+        <li>Esperienza con il software di traduzione professionale OmegaT</li>
+      </ul>
+    
+      <h3>Competenze da acquisire</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ol>
+    </div>
+</body>
+</html>
