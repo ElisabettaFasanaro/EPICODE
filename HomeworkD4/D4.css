@@ -1,0 +1,297 @@
+
+#logo {
+    max-width:5em;
+    padding-left:1em;
+    padding-top:1%
+}
+
+.categoria {
+    padding-left:1em;
+    color:white;
+    text-decoration-line: none;
+    
+}
+
+#upperside {
+    width: 96%;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+#mattone {
+    border-style: solid;
+    color: #f56600;
+    height: 25px;
+    background: #f56600;
+}
+
+#green_logo {
+    padding-left: 2em;
+    width: 91em;
+    height: 146px;
+    object-fit: contain;
+}
+
+#holiday1 {
+    position: absolute;
+    left: 16em;
+    bottom: 12em;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+#holiday2 {
+    position: absolute;
+    left: 49em;
+    bottom: 29em;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+
+#container {
+    padding-right: 1em;
+    padding-top: 5px;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+
+}
+
+.items {
+    height: 320px;
+    width: 263px;
+    margin-left: 1em;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px rgb(221 221 221); 
+}
+
+
+
+.paragraph {
+    color: #444444;
+    text-align: initial;
+    padding-left: 3em;
+    background-color: white;
+    width: 389px;
+    margin-left: 2em;
+    margin-bottom: unset;
+    padding-top: 1em;
+}
+
+
+.products {
+    font-size:0;
+    width: 100%;
+}
+
+.gruppo {
+    display:inline-block;
+    width:22%;
+    height: 315px;
+    background-color:white;
+    margin-left:2rem;
+    margin-top:2rem;
+}
+
+.sottogruppo {
+    display:inline-block;
+    width:22%;  
+}
+
+.pics {
+   max-width: 200px;
+}
+
+/*PRIMO CONTENITORE*/
+
+#pic1 {
+    width: 125px;
+    height: 102px;
+    margin-top: 2rem;
+    margin-left: 26px;
+    object-fit: cover;
+}
+
+#pic2 {
+    width: 125px;
+    height: 102px;
+    margin-left: 105px;
+    object-fit: cover;
+}
+
+#pic3 {
+    width: 125px;
+    height: 124px;
+    margin-left: 31px;
+    margin-top: 26px;
+    object-fit: cover;
+    
+}
+
+#pic4 {
+    width: 125px;
+    height: 129px;
+    margin-left: 105px;
+    margin-top: 11px;
+    object-fit: cover;
+  
+  /*SECONDO CONTENITORE*/  
+
+}
+#pic5 {
+    width: 133px;
+    height: 118px;
+    margin-top: 2rem;
+    margin-left: 33px;
+    object-fit: cover;
+    
+}
+
+#pic6 {
+    width: 115px;
+    height: 112px;
+    margin-top: 2rem;
+    margin-left: 114px;
+    object-fit: cover;
+    
+}
+
+#pic7 {
+    width: 138px;
+    height: 102px;
+    margin-top: 2rem;
+    margin-left: 33px;
+    object-fit: cover;
+    
+}
+
+#pic8 {
+    width: 112px;
+    height: 102px;
+    margin-top: 2rem;
+    margin-left: 119px;
+    object-fit: cover;
+}
+
+/*TERZO CONTENITORE*/
+
+#pic9 {
+    width: 130px;
+    height: 118px;
+    margin-top: 2rem;
+    margin-left: 31px;
+    object-fit: cover;
+}
+
+#pic10 {
+    width: 130px;
+    height: 111px;
+    margin-top: 2rem;
+    margin-left: 106px;
+    object-fit: cover;
+}
+
+#pic11 {
+    width: 130px;
+    height: 99px;
+    margin-top: 2rem;
+    margin-left: 29px;
+    object-fit: cover;
+}
+
+#pic12 {
+    width: 130px;
+    height: 102px;
+    margin-top: 2rem;
+    margin-left: 108px;
+    object-fit: cover;
+}
+
+/*QUARTO CONTENITORE*/
+
+#pic13 {
+    width: 125px;
+    height: 118px;
+    margin-top: 2rem;
+    margin-left: 27px;
+    object-fit: cover;
+}
+
+#pic14 {
+    width: 125px;
+    height: 114px;
+    margin-top: 2rem;
+    margin-left: 107px;
+    object-fit: cover;
+}
+
+#pic15 {
+    width: 125px;
+    height: 102px;
+    margin-top: 2rem;
+    margin-left: 26px;
+    object-fit: cover;
+}
+
+#pic16 {
+    width: 125px;
+    height: 102px;
+    margin-top: 2rem;
+    margin-left: 108px;
+    object-fit: cover;
+}
+
+/*FINE CONTENITORI*/
+
+.description {
+    color: #444444;
+    font-size: small;
+    font-weight: bold;
+    margin: unset;
+}
+
+#img_9 {
+    width: 80em;
+    height: 27em;
+    object-fit: cover;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 30%;
+   
+}
+
+.long {
+    width: 93%;
+    object-fit: cover;
+    display: block;
+    margin-left: 41px;
+}
+
+.description {
+    color:#444444;
+    text-align:center;
+    padding-left:1em;
+    font-size: initial;
+    margin: 1em;
+}
+
+#back_to_top {
+    text-align: center;
+    background-color: #37475A;
+    height: 2em;
+    padding-top: 1em;
+}
+
+#logo2 {
+    max-width: 8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
