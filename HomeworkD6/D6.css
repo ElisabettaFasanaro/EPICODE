@@ -1,0 +1,107 @@
+.container {
+    position:relative;
+    width:50%;
+}
+
+.villa {
+    display: block;
+    width: 347px;
+    height: 467px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+#save {
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 40%;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    width: 77px;
+    height: 45px;
+    position: absolute;
+    bottom: 507px;
+    left: 310px;
+    padding: 0;
+    
+}
+
+#save:hover {
+    transform: translateY(40%);
+    transition-timing-function: ease-in;
+    transition: 0.30s;
+    cursor:pointer;
+}
+
+.icons {
+    position:absolute;
+}
+
+#share {
+    width: 30px;
+    position: absolute;
+    top: 535px;
+    left: 308px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+#share:hover {
+    transform: translateY(-50%);
+    transition-timing-function: ease-in;
+    transition: 0.30s;
+    cursor:pointer; 
+}
+
+#ellipsis {
+    width: 30px;
+    position: absolute;
+    top: 532px;
+    left: 355px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30%;
+    padding: 2px;
+}
+
+#ellipsis:hover {
+    transform: translateY(-50%);
+    transition-timing-function: ease-in;
+    transition: 0.30s;
+    cursor:pointer;
+}
+
+
+
+#arrow {
+    width: 25px;
+    position: absolute;
+    background-color: white; opacity:0.9;
+    padding: 2px;
+    border-radius: 20%;
+    top: 535px;
+    left: 73px;
+    cursor:pointer;
+}
+
+#westwing { 
+    position: absolute;
+    background-color: white;
+    border-radius:20%;
+    opacity: 0.9;
+    font-weight: bold;
+    font-family: sans-serif;
+    top: 528px;
+    left: 109px;
+    white-space: nowrap;
+    text-overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 6em;
+    cursor: pointer;
+
+}
