@@ -6,3 +6,5 @@ Una serie di istruzioni passo passo che hanno lo scopo di ottenere un certo risu
 Una sorta di contenitore su cui puoi mettere un'etichetta, e nel quale vanno inseriti dati
 
 3. undefined e null sono la stessa cosa (falso)
+
+falso: undefined è una variabile cui non abbiamo dato un nome, null è una variabile non dichiarata e che in quanto tale non risulta esistere.
