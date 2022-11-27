@@ -1,3 +1,18 @@
+ /*ESERCIZI CSS
+
+        11) Assegna una larghezza massima al tag body e centralo nella pagina ***
+        12) Centra ogni tag h1 ***
+        13) Cambia il colore di ogni link nella pagina***
+        14) Crea una classe e assegnale un bordo**
+        15) Fai in modo che la i bordi della tabella che hai creato siano arrotondati ***
+        16) Aggiungi un margine ad ogni paragrafo ***
+        17) Crea una classe che una volta assegnata cambi la dimensione e il peso del font***
+        18) Crea una classe per nascondere un elemento
+        19) Aggiungi un bordo verde a ogni <td> ***
+        20) Aggiungi un bordo puntato rosso a ogni <tr> (nota: <tr> non accetta una proprietà "border") *?
+        */
+
+
 body {
     display:flex;
     width:50%;
@@ -9,29 +24,34 @@ body {
     padding-right:20px;
 }
 
-.tab1 {
+table {
     border: 1px solid;
+    width: 500px;
+    height:500px;
     border-radius: 9px;
+    border-spacing:5px;
     margin-bottom: 3em;
     margin-top: 3em;
-}
-
-.width {
-    font-size:small;
-    font-weight: bold;
 }
 
 .pb {
     max-width:50px;
     max-height:50px;
-
 }
 
-th {
-    border:1px dotted red;
+.author {
+    font-size:small;
+    font-weight: bold;
 }
+
 td {
     border: 1px solid green;
+    padding:30px;
+}
+
+tr {
+    outline: 1px dotted red;
+    padding:30px;
 }
 
 hr {
@@ -44,14 +64,3 @@ hr {
     margin-top: 3em;
 }
 
-ul {
-    padding:25px;
-}
-
-a {
-    color:purple;
-}
-
-p {
-    margin: 30px;
-}
