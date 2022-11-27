@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <!--
+<!--
         ESERCIZI HTML
 
         1) Assegna un titolo per questa pagina ***
@@ -9,38 +7,13 @@
 
         4) Crea una tabella con 4 righe e 5 colonne ***
         5) Aggiungi un'immagine a ogni seconda cella di ogni riga ***
-        6) Aggiungi un tag <a> ad ogni immagine
-        7) Unisci insieme 2 celle della tabella
+        6) Aggiungi un tag <a> ad ogni immagine***
+        7) Unisci insieme 2 celle della tabella***
 
         8) Dividi la pagina inserendo una riga orizzontale ***
         9) Crea un elemento contenitore con al suo interno un paragrafo e una lista non ordinata ***
         10) Crea un footer contenente alcune informazioni sul creatore della pagina ***
 
-        ESERCIZI CSS
-
-        11) Assegna una larghezza massima al tag body e centralo nella pagina ***
-        12) Centra ogni tag h1 ***
-        13) Cambia il colore di ogni link nella pagina
-        14) Crea una classe e assegnale un bordo
-        15) Fai in modo che la i bordi della tabella che hai creato siano arrotondati ***
-        16) Aggiungi un margine ad ogni paragrafo ***
-        17) Crea una classe che una volta assegnata cambi la dimensione e il peso del font
-        18) Crea una classe per nascondere un elemento
-        19) Aggiungi un bordo verde a ogni <td> ***
-        20) Aggiungi un bordo puntato rosso a ogni <tr> (nota: <tr> non accetta una proprietà "border")
-
-        ESERCIZI JAVASCRIPT
-
-        21) Date le variabili x = "John" e y = "Doe", mostra in console "John <> Doe"
-        22) Crea un oggetto con le seguenti proprietà: name, surname, email
-        23) Cancella la proprietà email dall'oggetto appena creato
-        24) Crea un array contenente 10 stringhe
-        25) Mostra in console ogni stringa del precedente array
-        26) Crea un array contenente 100 numeri random
-        27) Scrivi una funzione per trovare il valore massimo e il valore minimo dall'array appena creato
-        28) Crea un array di array, nel quale ogni array "figlio" ha 10 numeri random
-        29) Crea una funzione che riceve 2 array come parametri e ritorni quello con più elementi
-        30) Crea una funzione che riceve 2 array numerici come parametri e ritorna quello con la somma totale degli elementi maggiore
 
         ESERCIZI SUL DOM
 
@@ -68,8 +41,93 @@
         49) Scrivi una funzione per creare una tabella con 4 righe e 3 colonne e aggiungerla alla fine della pagina
         50) Scrivi una funzione per rimuovere l'ultima tabella presente nella pagina
         
-    --><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
-  </head>
-  <body cz-shortcut-listen="true"></body>
+    -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="M2D8_2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio</title>
+</head>
+<body>
+    <h1 style="text-align:center;">Lorem Ipsum Dolor</h1>
+        <div>
+            <ol>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ol>
+        </div><br>
+
+        <div>
+            <table>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>3</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>8</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>13</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>14</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>17</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>19</td>
+                  </tr>
+                </tbody>
+                </table>
+          </div>
+            <hr>
+        <div class="border">
+
+            <p style="margin: 30px;">Duis neque libero, eleifend non iaculis nec, placerat ut elit. Cras at facilisis felis, iaculis suscipit turpis.
+              Pellentesque vehicula purus sit amet leo fringilla, quis ultricies mi sagittis. 
+              Aliquam maximus tempor turpis sit amet mattis. Vivamus lacinia accumsan lorem, at tristique leo rutrum vel.
+              Praesent quis magna a odio consequat pharetra sed sit amet tortor. Integer quis mattis dui.
+              Quisque aliquam rutrum turpis, eget porttitor nisl suscipit eget. Donec at viverra arcu.
+            </p>
+            <ul style="padding:25px;">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ul>
+
+        </div>
+                
+<script src="M2D8_3.js"></script>   
+</body><br><br>
+
+<footer>
+    <div>
+        <p style="margin: 30px;" class="author"><a style="color:purple;" href="https://www.lipsum.com/">Lorem ipsum dolor</a> sit amet,
+          consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+</footer>
 </html>
