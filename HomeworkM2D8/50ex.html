@@ -1,0 +1,145 @@
+<!--
+        ESERCIZI HTML
+
+        1) Assegna un titolo per questa pagina ***
+        2) Crea un tag h1 con il contenuto che preferisci ***
+        3) Crea una lista ordinata con alcuni elementi al suo interno ***
+
+        4) Crea una tabella con 4 righe e 5 colonne ***
+        5) Aggiungi un'immagine a ogni seconda cella di ogni riga ***
+        6) Aggiungi un tag <a> ad ogni immagine***
+        7) Unisci insieme 2 celle della tabella***
+
+        8) Dividi la pagina inserendo una riga orizzontale ***
+        9) Crea un elemento contenitore con al suo interno un paragrafo e una lista non ordinata ***
+        10) Crea un footer contenente alcune informazioni sul creatore della pagina ***
+
+
+        ESERCIZI SUL DOM
+
+        31) Seleziona l'elemento con id "container" nella pagina
+        32) Seleziona tutti gli elementi di tipo <td> nella pagina
+        33) Usa un ciclo per stampare in console il testo contenuto in ogni elemento <td> nella pagina
+        34) Scrivi una funzione per cambiare il titolo della pagina
+        35) Scrivi una funzione per aggiungere una nuova riga alla tabella nella pagina
+        36) Scrivi una funzione per aggiungere la classe "test" ad ogni riga nella tabella
+        37) Scrivi una funzione per aggiungere uno sfondo rosso a ogni link presente nella pagina
+        38) Mostra in console "Page loaded" quando la pagina ha finito di caricarsi
+        39) Scrivi una funzione per aggiungere nuovi elementi alla lista non ordinata nella pagina
+        40) Scrivi una funzione per svuotare una lista nella pagina
+
+        ESERCIZI EXTRA
+
+        41) Aggiungi un event listener in modo che compaia un alert quando il cursore passa sopra un link; l'alert deve mostrare la sua proprietà href
+        42) Crea un bottone che una volta cliccato nasconde ogni immagine nella pagina
+        43) Crea un bottone che una volta cliccato nasconde o mostra la tabella nella pagina
+        44) Crea una funzione per calcolare la somma di ogni numero contenuto in tutte le celle della tabella (se il contenuto è un numero)
+        45) Cancella l'ultima lettera dal titolo della pagina ogni volta che l'utente ci clicca sopra
+        46) Aggiungi un event listener in modo che cliccando un <td> nella pagina, questo cambi colore di sfondo
+        47) Aggiungi un bottone che una volta cliccato elimini un <td> a caso nella tabella
+        48) Aggiungi automaticamente un bordo rosa ad una cella della tabella quando il cursore ci passa sopra
+        49) Scrivi una funzione per creare una tabella con 4 righe e 3 colonne e aggiungerla alla fine della pagina
+        50) Scrivi una funzione per rimuovere l'ultima tabella presente nella pagina
+        
+    -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="M2D8_2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio</title>
+</head>
+<body>
+    <h1 style="text-align:center;">Lorem Ipsum Dolor</h1>
+        <div>
+            <ol>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ol>
+        </div><br>
+
+        <div>
+            <table>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>3</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>8</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>13</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>14</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>17</td>
+                    <td><a href="x"><img class="pb" src="assets/pb.png"></a></td>
+                    <td>19</td>
+                  </tr>
+                </tbody>
+                </table>
+          </div>
+            <hr>
+        <div class="border">
+
+            <p style="margin: 30px;">Duis neque libero, eleifend non iaculis nec, placerat ut elit. Cras at facilisis felis, iaculis suscipit turpis.
+              Pellentesque vehicula purus sit amet leo fringilla, quis ultricies mi sagittis. 
+              Aliquam maximus tempor turpis sit amet mattis. Vivamus lacinia accumsan lorem, at tristique leo rutrum vel.
+              Praesent quis magna a odio consequat pharetra sed sit amet tortor. Integer quis mattis dui.
+              Quisque aliquam rutrum turpis, eget porttitor nisl suscipit eget. Donec at viverra arcu.
+            </p>
+            <ul style="padding:25px;">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ul>
+
+        </div>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="M2D8_3.js"></script>   
+</body><br><br>
+
+<footer>
+    <div>
+        <p style="margin: 30px;" class="author"><a style="color:purple;" href="https://www.lipsum.com/">Lorem ipsum dolor</a> sit amet,
+          consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+</footer>
+</html>
